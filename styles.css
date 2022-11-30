@@ -1,0 +1,347 @@
+/* for everything */
+
+* {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    background-image: linear-gradient(180deg, #739db1, #4d7a91);
+    height: calc(100% - navbarpx);
+}
+
+.all {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 3%;
+    background-color: #275369;
+    box-shadow: 0px 0px 10px #232931;
+    border-radius: 30px;
+    text-align: justify;
+}
+
+.all p {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+} 
+
+/* navigation bar */
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 60px;
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease-out;
+    padding-bottom: 5px;
+}
+nav ul li a::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: #E04220;
+    transition: 0.3s ease-out;
+}
+
+nav ul li a:hover::before{
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li a:hover {
+    color: #E04220;
+}
+
+span {
+    color: #E04220;
+}
+
+.pages {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(media/nav.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 0;
+    margin-right:0%;
+    margin-left:0%;
+    height: 230px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    color: #9cc0da;
+}
+
+a:hover {
+    color: rgb(105, 175, 178);
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* footer */
+
+footer {
+    background-color: #336B87;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    height: 115px;
+    margin-top: 30px;
+}
+
+.emails {
+    font-size: 13px;
+    text-align: center;
+}
+
+/* homepage */
+
+.left {
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.right {
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.hello {
+    margin-bottom: 5%;
+}
+
+.hourofcode {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 60px;
+}
+
+.introduction img {
+    overflow: hidden;
+    height: 100%;
+    margin: 6% 0px;
+    box-shadow: 0px 0px 10px #232931;
+}
+
+/* about us page */
+
+table, th, td {
+    border: 1px solid;
+    padding: 15px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics {
+    height: 100%;
+    box-shadow: 0px 0px 10px #232931;
+}
+
+.text {
+    text-align: right;
+}
+
+.photosofus {
+    float: left;
+    margin-right: 30px;
+    box-shadow: 0px 0px 10px #232931;
+}
+
+.photoofus2 {
+    float: right;
+    box-shadow: 0px 0px 10px #232931;
+}
+.textabus {
+    overflow: hidden;
+    height: 400px;
+    text-align: initial;
+    padding-right:1%;
+}
+
+.textabus2 {
+    overflow: hidden;
+    height: 400px;
+    float: left;
+    width: 67%;
+    text-align: right;
+    padding-right:1%;
+}
+
+.textabus .littletext {
+    font-size: 10px;
+}
+
+.webproject {
+    width: 49%;
+    float: left;
+    margin: 0px 90px;
+    height: 100%;
+}
+
+.listofaccs {
+    overflow: hidden;
+    height: 250px;
+}
+
+/* ada page */
+
+.formlogo {
+    text-align: center;
+}
+
+.formlogo label {
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.adaform {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.adaform label {
+    margin-right: 30px;
+}
+
+.adainfo {
+    font-size: 18px;
+}
+
+.faculty option {
+    font-size: 15px;
+}
+
+.yesnoada {
+    margin: 30px;
+}
+
+.worldclass {
+    text-align: center;
+}
+
+.adaparag {
+    text-align: justify;
+    padding: 2% 3%;
+}
+
+.adapic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/* hour of code page */
+
+.video {
+    display: block;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+  .left2 {
+    float: left;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.right2 {
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #232931;
+    margin-top: 70px;
+    margin-bottom: 140px;
+}
+
+.ourevent {
+    padding: 50px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.collage {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 900px;
+}
+.collagetext {
+	padding: 20px;
+	background: #2993df;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	width: 300px;
+	margin: 2px;
+}
+.collage img {
+  height: 200px;
+  flex-grow: 1;
+  object-fit: cover;
+  margin: 2px;
+}
+
+/* javascript */
+
+.top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.active {
+    opacity: 1;
+}

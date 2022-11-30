@@ -1,14 +1,72 @@
 <!DOCTYPE html>
-<!-- 
-    SITE 1101 Principles of Information Systems Fall 2022 
-    (c)2022 by Name Surname 
-    Submitted in partial fulfillment of the requirements of the course.
--->
+
 <html>
-    <head>
-        <title>Homework 3: How websites work?</title>       
-    </head>
-    <body>
-        #Homework 3: How websites work?
-    </body>
+        <head>
+            <link rel = "stylesheet" href = "styles.css">
+            <title>Team Falcon</title>
+            <link rel = "icon" type = "image/x-icon" href = "./media/falcon.png"> 
+            <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />      
+        </head>
+        <header id = "header-part">
+            <div class = "pages">
+                <nav>
+                    <a href = 'index.html' class = 'link'><h2 class = 'logo'>Team <span>Falcon</span></h2></a>
+                    <ul>
+                        <li><a href = 'index.html'>Home</a></li>
+                        <li><a href = 'aboutus.html'>About us</a></li>
+                        <li><a href = 'hourofcode.html'>Hour of Code</a></li>
+                        <li><a href = 'adauni.html'>ADA University</a></li>
+                    </ul>
+                </nav>
+                </div>
+        </header>
+        <div class = 'all'>
+            <body>
+                <div class = "introduction">
+                    <div class = 'hello'>
+                        <h1 class = 'center'>Hello everyone! We are very glad to see you on our webpage.</h1>
+                    </div>
+                    <p class = 'left'>The name of our group is Team Falcon. We are four people: Leyla, Ibrahim, Nuran and Nasib.
+                        Our goal in creating this site is to gain new experiences in HTML, CSS and JavaScript. It is a great
+                        opportunity to expand our knowledge for our future. You can see our logo on the right which represents our
+                        group.</p>
+                    <img class = 'right' height = '80' width = '300' src = "media/ourlogo.png">
+                    <p class = 'left'><br>Our team started to do this project because we were given an assignment by our instructors from
+                        ADA University. If you want to learn about our university more, you can <a href = "adauni.html">click here</a> to move to the
+                        page where we give you brief knowledge about ADA or just read more detailed information on <a href = "https://www.ada.edu.az/en">
+                        ADA University's webpage.</a></p>
+                    <img class = 'right' src = "media/adalogo.png" width = '200' height = '150'>
+                    <div class = 'hourofcode'>
+                    <h2 class = 'center'>Our recent events</h2>
+                    <p>Hour of Code is a global movement that motivates students to learn about programming principles
+                        in a fun and entertaining way. Recently we organized an Hour of Code in Baku. It was quite fascinating for
+                        us to work with children and explain key elements of programming. You can learn more about Hour of Code and
+                        our event <a href = "hourofcode.html">here.</a> Moreover, you can take a look at our
+                        <a href = 'https://m.facebook.com/story.php?story_fbid=pfbid02Wm1JQD9TvFZUCFexhWsbMLTKPbbhGuBvjsSwcLFs7FBtdfDreQKuFotPxG3N5NE5l&id=100013279326537&mibextid=uevf24'>
+                        Facebook post</a> about this.</p>
+                    </div>
+                    <img width = '400' height = '200' src = "media/hourofcode.png">
+                    <div class = 'form'>
+                        <br>
+                        <div class = 'formlogo'>
+                            <h3><br><br>Do you like our logo?</h3>
+                            <input type = "radio" id = 'yes' name = 'yesno'>
+                            <label for = 'yes'>Yes</label>
+                            <input type = "radio" id = 'no' name = 'yesno'>
+                            <label for = 'no'>No</label>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </body>
+         </div>
+    <footer>
+        <div class = 'emails'>
+            <h5>Contact us through email:</h5>
+            <h5>lneymat17256@ada.edu.az</h5>
+            <h5>Our number: +994 50 888 27 07</h5>
+        </div>
+    </footer>
+    <a href = "#header-part" class = "top-button"><i class = "fa-solid fa-circle-chevron-up"></i></a>
+    <script src = "main.js"></script>
 </html>
